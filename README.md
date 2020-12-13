@@ -25,7 +25,7 @@ I have explained every step of the process and if that doesn't make it clear, pl
 
 ## License
 
-()
+Open Sorce ? ( I don't really know, what to write here! :)
 
 ## Connect
 
