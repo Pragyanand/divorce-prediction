@@ -4,6 +4,8 @@ This  'DIVORCE PREDICTOR ' project is based off of a paper published by  the tit
 
 Here, I have take the same [Dataset](https://archive.ics.uci.edu/ml/datasets/Divorce+Predictors+data+set) from the UCI Machine Learning Repository (not complete) and tried to analyse and see which factors affected the target variable (Marital Status) in my case, the most.
 
+I have deployed it on herou. Click [here](https://divorce-prediction.herokuapp.com/) to try.
+
 
 
 ## Built With
