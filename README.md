@@ -11,6 +11,7 @@ I have deployed it on herou. Click [here](https://divorce-prediction.herokuapp.c
 ## Built With
 
 - Python
+- Flask
 
 
 
