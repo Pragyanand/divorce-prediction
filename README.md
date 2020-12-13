@@ -31,4 +31,4 @@ Open Sorce ? ( I don't really know, what to write here! :)
 
 Twitter : [@pragyanand](https://www.twitter.com/pragyanand/)   
 Facebook : [@pragyanand](https://www.facebook.com/pragyanand/)    
-Instagram : [@little.tiwari](https://www.instagram.com/little.tiwari/)# About The Project
+Instagram : [@little.tiwari](https://www.instagram.com/little.tiwari/)
