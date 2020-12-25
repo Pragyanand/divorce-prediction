@@ -21,7 +21,7 @@ def home():
 def predict():
 
 
-    model = joblib.load('random_forest_divorce_predictor.pkl')
+    model = joblib.load('logistic_regression.pkl')
 
 
     q1 = int(request.form['q1'])
@@ -42,15 +42,10 @@ def predict():
     final = [np.array(int_features)]
 
 
-    prediction = model.predict(final)
+    prediction = model.predict_proba(final)[:,1]
 
-
-    if (prediction[0] == 1):
-
-        return render_template('index.html', pred = Markup("The probability of you getting divorced is VERY HIGH! <br>Please see a Marriage Counsellor!"))
-    else:
-
-        return render_template('index.html', pred = Markup("I guess, you're leading a pretty happy life!"))
+    return render_template('index.html', pred = prediction)
+    
 
 
 
