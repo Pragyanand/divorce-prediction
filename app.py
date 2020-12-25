@@ -42,9 +42,10 @@ def predict():
     final = [np.array(int_features)]
 
 
-    prediction = model.predict_proba(final)[:,1]
+    prob = model.predict_proba(final)[:,1]
+    prediction = str(round(prob[0][1] *100)) + " %" 
 
-    return render_template('index.html', pred = prediction)
+    return render_template('index.html', pred = Markup("The Probability of you getting divorced is "), prediction = prediction)
     
 
 
